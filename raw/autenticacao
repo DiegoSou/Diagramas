@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" modified="2023-04-30T18:18:46.065Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="WBkzpF7N2cKaNi14R9sW" version="21.2.1" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1320" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=classic;endFill=1;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="User" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="50" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="js87Blb9HQpV5by8HMYe-0" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Uma autenticação é criada para impedir que agentes não autorizados acessem as rotas da nossa aplicação e tenham acesso a algum dado sensível. É feita a partir de um sistema que verifique algum parâmetro como credencial validando ele para que exista um controle de quem acessa o sistema&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="10" y="10" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="js87Blb9HQpV5by8HMYe-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.62;entryY=-0.052;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="js87Blb9HQpV5by8HMYe-1" target="js87Blb9HQpV5by8HMYe-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="270" />
+              <mxPoint x="144" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="js87Blb9HQpV5by8HMYe-1" value="Agente" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="230" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="js87Blb9HQpV5by8HMYe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="js87Blb9HQpV5by8HMYe-2" target="js87Blb9HQpV5by8HMYe-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="js87Blb9HQpV5by8HMYe-2" value="Route" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="70" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="js87Blb9HQpV5by8HMYe-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="js87Blb9HQpV5by8HMYe-4" target="js87Blb9HQpV5by8HMYe-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="js87Blb9HQpV5by8HMYe-4" value="Validação de Credencial" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="60" y="390" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="js87Blb9HQpV5by8HMYe-6" value="Informação" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="60" y="525" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0Rn5Y2SqDPxfsXEmZD-F-0" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="350" height="610" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
